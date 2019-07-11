@@ -15,7 +15,6 @@
     "e2e": "grunt test:ci-e2e",
     "init": "validate-commit-msg",
     "lint": "grunt newer:jshint",
-    "postinstall": "webdriver-manager update",
     "release": "lerna publish from-package",
     "start": "grunt dev --fast",
     "test": "grunt test"
